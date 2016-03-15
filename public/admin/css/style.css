@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'bebas';
+    src: url('fonts/UTM Bebas.eot');
+    src: url('fonts/UTM Bebas.eot?#iefix') format('embedded-opentype'),
+         url('fonts/UTM Bebas.woff2') format('woff2'),
+         url('fonts/UTM Bebas.woff') format('woff'),
+         url('fonts/UTM Bebas.ttf') format('truetype'),
+         url('fonts/UTM Bebas.svg#utm_bebasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'neo';
+    src: url('fonts/UTM Neo Sans Intel.eot');
+    src: url('fonts/UTM Neo Sans Intel.eot?#iefix') format('embedded-opentype'),
+         url('fonts/UTM Neo Sans Intel.woff2') format('woff2'),
+         url('fonts/UTM Neo Sans Intel.woff') format('woff'),
+         url('fonts/UTM Neo Sans Intel.ttf') format('truetype'),
+         url('fonts/UTM Neo Sans Intel.svg#utm_neo_sans_intelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'avo';
+    src: url('font/UTM Avo.eot');
+    src: url('font/UTM Avo.eot?#iefix') format('embedded-opentype'),
+         url('font/UTM Avo.woff2') format('woff2'),
+         url('font/UTM Avo.woff') format('woff'),
+         url('font/UTM Avo.ttf') format('truetype'),
+         url('font/UTM Avo.svg#utm_avoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('font1/robotocondensed-regular.eot');
+    src: url('font1/robotocondensed-regular.eot?#iefix') format('embedded-opentype'),
+         url('font1/robotocondensed-regular.woff2') format('woff2'),
+         url('font1/robotocondensed-regular.woff') format('woff'),
+         url('font1/robotocondensed-regular.ttf') format('truetype'),
+         url('font1/robotocondensed-regular.svg#roboto_condensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'source';
+    src: url('font/sourcesanspro-regular.eot');
+    src: url('font/sourcesanspro-regular.eot?#iefix') format('embedded-opentype'),
+         url('font/sourcesanspro-regular.woff2') format('woff2'),
+         url('font/sourcesanspro-regular.woff') format('woff'),
+         url('font/sourcesanspro-regular.ttf') format('truetype'),
+         url('font/sourcesanspro-regular.svg#source_sans_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.clear{
+	clear: both;
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+ }
+.clearfix { display: inline-block; }
+.clearfix { display: block; }
+a:hover{
+	text-decoration: none;
+}
+/*----------------------------------------------*/
+.main{
+	background-color: #FFF;
+	padding-bottom: 20px;
+}
+.panel-title {
+	font-size: 15px !important;
+}
+.div_center{
+	text-align: center;
+}
+.div_float_right{
+	float: right !important;
+	text-align: right;
+}
+.title_group{
+	padding: 10px;
+	text-transform: uppercase;
+	color: #FF0 !important;
+	font-size: 14px;
+}
+.clear{
+	clear: both;
+}
+td.tool a{
+	cursor: pointer;
+}
+td.publish a{
+	cursor: pointer;
+}
+td.tool i{
+	font-size: 17px;
+}
+td.publish i{
+	font-size: 17px;
+	color: #13c717;
+}
+td.publish i.fa-circle{
+	font-size: 17px;
+	color: #F00;
+}
+.pagination{
+	margin: 0px !important;
+}
+.pagination span{
+	line-height: 30px;
+	margin-left: 10px;
+	font-weight: 700;
+}
+.form-horizontal .control-label {
+	margin-bottom: 5px !important;
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+#box_img{
+	margin-bottom: 10px;
+}
+#box_img img{
+	max-width: 100%;
+}
+#box_img_bg{
+    margin-bottom: 10px;
+}
+#box_img_bg img{
+    max-width: 100%;
+}
+.img_admin{
+	max-height: 60px;
+}
+
+.fullmain{
+	float: right !important;
+	display: block;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+	line-height: 32px !important;
+}
+.select2-container .select2-selection--single {
+	height: 35px !important;
+	border: 1px solid #ccc !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s !important;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s !important;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s !important;
+}
+.fa-mail-forward{
+	color: #222;
+}
+.fa-angle-down{
+	display: none;
+}
+.info_user{
+	float: right !important;
+	text-align: right;
+	line-height: 45px;
+}
+.info_user a{
+	color: #FFF;
+	margin-right: 10px;
+	font-size: 15px;
+}
+.info_user a:hover{
+	color: #FF0;
+}
+.info_user a i{
+	font-size: 20px;
+}
+/*----------------------------------------------*/
+#error_form{
+    display: none;
+    color: #F00;
+}
+#error_username{
+    display: none;
+    color: #F00;
+}
+#error_pass{
+    display: none;
+    color: #F00;
+}
+#error_repass{
+    display: none;
+    color: #F00;
+}
+#error_chkpass{
+    display: none;
+    color: #F00;
+}
+#error_email{
+    display: none;
+    color: #F00;
+}
+#error_chkemail{
+    display: none;
+    color: #F00;
+}
+.div_avatar{
+    width: 40%;
+}
+.user-panel .image img {
+    background-color: #FFF;
+}
+.nav li a img {
+    background-color: #FFF;
+}
+.success{
+    color: #2cf018 !important;
+}
+.error{
+    color: #2cf018 !important;
+}
+
