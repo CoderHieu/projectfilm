@@ -1,5 +1,5 @@
 <?php
-header('Content-Type: text/html; charset=utf-899999999999');
+header('Content-Type: text/html; charset=utf-8');
 /**
  * CodeIgniter
  *
